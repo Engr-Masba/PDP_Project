@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PDP Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">Hollywood Automobile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <ul class="navbar-nav ms-auto"> 
+                        <li class="nav-item"><a class="nav-link text-success fw-bold" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-success fw-bold" href="#">Product</a></li>
+                        <li class="nav-item"><a class="nav-link text-success fw-bold" href="#">Today's Deals</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link text-warning" href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Language
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">English</a></li>
+                              <li><a class="dropdown-item" href="#">Bangla</a></li>
+                              
+                            </ul>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-person-circle"></i> Account</a>
+                          </li>
+                          
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Column 1: Product Image -->
+            <div class="col-md-6">
+                <div id="productCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/3_NKN_b1b7df08-df20-48fd-b820-331d12787aa7_750x.webp" class="d-block w-100" alt="Image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/4-NKN_70e8f571-5b9d-4a19-8051-b132333ffeb3_750x.webp" class="d-block w-100" alt="Image2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/5-NKN_9bdbeb86-d52a-400e-ae3e-8e223080fcf9.webp" class="d-block w-100" alt="Image3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/4.png" class="d-block w-100" alt="Image4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Column 2: Product Description -->
+            <div class="col-md-6">
+                <h1>NKN CV Joint (Mitsubishi Xpander 2017-2021)</h1>
+                <p class="lead">Advanced protection for your car and peace of mind</p>
+
+                
+
+                <div>
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>100% Original</li>
+                        <li>Filled with long-lasting grease</li>
+                        <li>Ensure vehicle handles</li>
+                        <li>Ensure that when you press on the gas, your wheels will turn</li>
+                        <li>Transfer power to the wheels from the transmission</li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="text-primary">Price: 7,700 tk</h3>
+                </div>
+                <div class="d-grid gap-3 d-md-flex justify-content-md-end my-4">
+                    <button class="btn btn-info me-md-2" type="button">Buy Now</button>
+                    <button class="btn btn-warning" type="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accordion -->
+        <div class="row" id="products">
+            <div class="col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Product Description
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <p>Constant velocity joints, better known as CV joints, are found at the ends of the drive shafts. They are essential to connecting the drive shafts to the transmission and wheels. Because of their function nad location, these joints easily wear out over time. They can even break. To ensure that you understand the importance of them, it helps to know a little more about what they do and what happens when something goes wrong with them. They are two types of CV joints. The Cardinal, which is usually found in heavy trucks and four-wheel drive vehicles and rzeppa CV joints found on most front wheels.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Technical Specifications
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>Brand</td>
+                                        <td>NKN</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Location</td>
+                                        <td>Front Axle</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Product Name</td>
+                                        <td>NKN Genuine Outer CV Joint 23X58X26</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Package Quantity</td>
+                                        <td>2 pieces | 1 Pair RH, LH</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inner Teeth</td>
+                                        <td>23</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Outer shaft Teeth</td>
+                                        <td>26</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Outer Cone Size (mm)</td>
+                                        <td>58</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vehicle Type</td>
+                                        <td>Passenger Vehicle (Sedan)</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-4">
+        <div class="container text-center">
+            <div class="mb-3">
+                <p>Follow us on:</p>
+                <a href="#" class="me-3"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href="#" class="me-3"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="#" class="me-3"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            </div>
+
+            <p>&copy; 2025 Hollywood Automobile. All Rights Reserved.</p>
+
+            <div>   
+                <a href="#" class="text-dark me-3">Privacy Policy</a>
+                <a href="#" class="text-dark me-3">Terms of Service</a>
+                <a href="#" class="text-dark">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
